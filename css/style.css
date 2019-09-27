@@ -1,0 +1,63 @@
+html, 
+body:not(#b){
+	height: 100%;
+}
+#tabs{
+	height:100%;
+}
+#loginCard
+{
+	margin: auto;
+	margin-top: 200px;
+	height: 500px;
+	border-radius: 5px;
+	padding: 10px;
+	text-align:center;
+	background-color: rgba(0, 0, 0, 0.8);
+	color:#ffffff;
+
+}
+
+
+.btn
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#b
+{
+	background-image: url("../images/space.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.container:not(.LorR){
+	text-align: center;
+	background-color: #95a5a6;
+	height: 100%;
+}
+
+.bgimgs{
+	text-align: center;
+	width: 100%;
+	height: 750px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.layerMain
+{
+	font-size: 5.4vw;
+	color:white;
+	vertical-align: middle;
+	line-height: 750px;
+	text-shadow: 9px 9px 9px #000000;
+	height:100%;
+	width:100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+#piechart{
+	padding-left: 330px;
+}

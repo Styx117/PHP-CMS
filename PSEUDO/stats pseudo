@@ -1,0 +1,22 @@
+stats pseudocode
+
+load_google_charts()
+
+start function drawChart()
+	val = "php_variables(AmountOfAdmins)"
+	val1 = "php_variables(AmountOfNormals)"
+
+	data = drawChart
+		UserType = 'Amount of Users',
+		Admin = 'convertToInt(val)',
+		Normal = 'convertToInt(val1)'
+
+options =
+	title : 'Types of Users',
+	width : 600,
+	height : 600,
+	backgroundColor : 'transparent'
+
+chart = new Google.PieChart(drawChart,options)
+
+

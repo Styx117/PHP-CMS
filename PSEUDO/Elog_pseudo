@@ -1,0 +1,9 @@
+Activate error engine
+ini_file(ingore_repeated_errors) = true
+ini_file(display_errors) = true
+
+ini_file(log_errors) = true
+
+ini_file(log_errors_to) = "logs/errorLog.txt"
+
+ini_file(log_error_max_length) = 1024

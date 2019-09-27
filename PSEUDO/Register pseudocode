@@ -1,0 +1,21 @@
+Register pseudocode
+
+Start Session
+Link to Database
+link to "errorLog.php"
+
+if post_variable("register") is set then
+	formUsername = post_variable("Uname")
+	formPassword = post_variable("Pass")
+	sql = "SELECT ALL FROM users TABLE WHERE Username = formUsername" LIMIT = 1"
+	query = run_command(SQL) using conn
+
+	if(num_of_records($query) = 0) then
+		stmt = "INSERT INTO users TABLE Username = formUsername Password = formPassword"
+		if query succeeds then
+			redirect user to "login.php"
+		else
+			print "Something went wrong. User wasn't inserted" + error
+	else
+		print "USER ALREADY EXISTS (linebreak) PLEASE SELECT ANOTHER NAME"
+		

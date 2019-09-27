@@ -1,0 +1,34 @@
+Edit User Pseudocode:
+
+Start Session
+Link to Database
+link to "errorLog.php"
+
+if session_variable("name") is null then
+	Redirect user to Login.php
+
+
+if session_variable("AType") is not "Admin" then
+	Redirect user to index.php
+
+If post_variable("SubUser") is set then
+	clicked_id = cookie.variable("clicked")
+	if post_variable("SubUser") is "Admin" then
+		stmt = "UPDATE users TABLE: Account_Type = 'Normal' WHERE ID = 'clicked_id'"
+	else
+		stmt = "UPDATE users TABLE: Account_Type = 'Admin' WHERE ID = 'clicked_id'"
+
+	if query works then
+		Redirect user to index.php
+	else
+		print "Something went wrong. User wasn't updated." + error
+
+if post_variable("DelUser") is set then
+	userId = post_variable("DelUser")
+	stmt = "DELETE RECORD FROM user TABLE WHERE ID = 'userId'"
+
+	if query works then
+		Redirect user to index.php
+
+	else
+		print "Something went wrong. User wasn't updated." + error

@@ -1,0 +1,34 @@
+Delete Pseudocode:
+
+Start Session
+Link to Database
+link to "errorLog.php"
+
+if session_variable("name") is null then
+	Redirect user to Login.php
+
+
+if session_variable("AType") is not "Admin" then
+	Redirect user to index.php
+
+print "Currently selected: " + cookie_variable("current")
+
+if post_variable("submit") is set AND cooki_variable(current) is not "None" then
+	scr = cookie_variable("selected")
+	stmt = "DELETE pages WHERE id = 'sct'"
+
+	if stmt works then
+		print "Pages successfully deleted"
+		make_cookie("current" = none)
+		redirect user to "index.php"
+
+	else
+		print "Something went wrong. Page wasn't deleted" + error
+
+
+
+
+
+
+
+

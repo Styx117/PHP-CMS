@@ -1,0 +1,149 @@
+[05-Apr-2019 11:52:34 Europe/Berlin] PHP Warning:  require(joe.com): failed to open stream: No such file or directory in E:\xampp\htdocs\CMSFINAL\errorLog.php on line 14
+[05-Apr-2019 11:52:35 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'joe.com' (include_path='\xampp\php\PEAR') in E:\xampp\htdocs\CMSFINAL\errorLog.php on line 14
+[05-Apr-2019 11:55:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function str_repace() in E:\xampp\htdocs\CMSFINAL\Add.php:17
+Stack trace:
+#0 {main}
+  thrown in E:\xampp\htdocs\CMSFINAL\Add.php on line 17
+[05-Apr-2019 11:55:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function str_replae() in E:\xampp\htdocs\CMSFINAL\Add.php:17
+Stack trace:
+#0 {main}
+  thrown in E:\xampp\htdocs\CMSFINAL\Add.php on line 17
+[09-Apr-2019 11:09:23 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'cmssy2' in F:\xampp\htdocs\CMSFINAL\db.php on line 9
+[09-Apr-2019 11:09:28 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'cmssy2' in F:\xampp\htdocs\CMSFINAL\db.php on line 9
+[09-Apr-2019 11:09:36 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'cmssy2' in F:\xampp\htdocs\CMSFINAL\db.php on line 9
+[09-Apr-2019 12:23:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:115) in F:\xampp\htdocs\CMSFINAL\index.php on line 156
+[09-Apr-2019 12:23:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:115) in F:\xampp\htdocs\CMSFINAL\index.php on line 161
+[09-Apr-2019 12:25:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:115) in F:\xampp\htdocs\CMSFINAL\index.php on line 156
+[09-Apr-2019 12:25:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:115) in F:\xampp\htdocs\CMSFINAL\index.php on line 161
+[09-Apr-2019 12:25:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:115) in F:\xampp\htdocs\CMSFINAL\index.php on line 156
+[09-Apr-2019 12:25:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:115) in F:\xampp\htdocs\CMSFINAL\index.php on line 161
+[13-Apr-2019 19:35:57 Europe/Berlin] PHP Notice:  Undefined index: AType in F:\xampp\htdocs\CMSFINAL\index.php on line 91
+[13-Apr-2019 19:53:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 19:53:51 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[13-Apr-2019 19:54:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 19:54:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[13-Apr-2019 19:54:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 19:54:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[13-Apr-2019 19:55:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 19:55:46 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[13-Apr-2019 19:55:49 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 19:55:49 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[13-Apr-2019 19:56:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 19:56:03 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[13-Apr-2019 19:56:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 19:56:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[13-Apr-2019 19:56:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 19:56:21 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[13-Apr-2019 19:56:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 19:56:25 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[13-Apr-2019 19:56:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 19:56:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[13-Apr-2019 20:00:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 131
+[13-Apr-2019 20:00:14 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at F:\xampp\htdocs\CMSFINAL\index.php:117) in F:\xampp\htdocs\CMSFINAL\index.php on line 136
+[14-Apr-2019 00:09:11 Europe/Berlin] PHP Notice:  Undefined variable: file_name in F:\xampp\htdocs\CMSFINAL\Add.php on line 45
+[14-Apr-2019 00:10:01 Europe/Berlin] PHP Notice:  Undefined index: current in F:\xampp\htdocs\CMSFINAL\Delete.php on line 14
+[14-Apr-2019 00:10:49 Europe/Berlin] PHP Notice:  Undefined variable: file_name in F:\xampp\htdocs\CMSFINAL\Add.php on line 45
+[14-Apr-2019 00:11:46 Europe/Berlin] PHP Notice:  Undefined variable: file_name in F:\xampp\htdocs\CMSFINAL\Add.php on line 46
+[14-Apr-2019 00:11:56 Europe/Berlin] PHP Notice:  Undefined variable: file_name in F:\xampp\htdocs\CMSFINAL\Add.php on line 46
+[14-Apr-2019 00:12:22 Europe/Berlin] PHP Notice:  Undefined variable: file_name in F:\xampp\htdocs\CMSFINAL\Add.php on line 46
+[14-Apr-2019 00:12:31 Europe/Berlin] PHP Notice:  Undefined variable: file_name in F:\xampp\htdocs\CMSFINAL\Add.php on line 46
+[14-Apr-2019 00:28:13 Europe/Berlin] PHP Notice:  Undefined index: title in F:\xampp\htdocs\CMSFINAL\Add.php on line 41
+[14-Apr-2019 00:28:13 Europe/Berlin] PHP Notice:  Undefined index: body in F:\xampp\htdocs\CMSFINAL\Add.php on line 42
+[14-Apr-2019 00:28:13 Europe/Berlin] PHP Notice:  Undefined variable: file_name in F:\xampp\htdocs\CMSFINAL\Add.php on line 44
+[14-Apr-2019 00:28:32 Europe/Berlin] PHP Notice:  Undefined index: image in F:\xampp\htdocs\CMSFINAL\Add.php on line 18
+[14-Apr-2019 00:28:34 Europe/Berlin] PHP Notice:  Undefined index: image in F:\xampp\htdocs\CMSFINAL\Add.php on line 19
+[14-Apr-2019 00:28:34 Europe/Berlin] PHP Notice:  Undefined index: image in F:\xampp\htdocs\CMSFINAL\Add.php on line 20
+[14-Apr-2019 00:28:34 Europe/Berlin] PHP Notice:  Undefined index: image in F:\xampp\htdocs\CMSFINAL\Add.php on line 21
+[14-Apr-2019 00:28:34 Europe/Berlin] PHP Notice:  Undefined index: image in F:\xampp\htdocs\CMSFINAL\Add.php on line 22
+[14-Apr-2019 00:28:34 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 22
+[14-Apr-2019 00:33:25 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 20
+[14-Apr-2019 00:34:11 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:12:24 Europe/Berlin] PHP Notice:  Undefined index: username in F:\xampp\htdocs\CMSFINAL\Edit.php on line 6
+[14-Apr-2019 20:12:26 Europe/Berlin] PHP Notice:  Undefined index: AType in F:\xampp\htdocs\CMSFINAL\Edit.php on line 10
+[14-Apr-2019 20:12:30 Europe/Berlin] PHP Notice:  Undefined index: selected in F:\xampp\htdocs\CMSFINAL\Edit.php on line 61
+[14-Apr-2019 20:12:30 Europe/Berlin] PHP Notice:  Undefined index: AType in F:\xampp\htdocs\CMSFINAL\index.php on line 90
+[14-Apr-2019 20:13:19 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:13:47 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:14:15 Europe/Berlin] PHP Notice:  Undefined index: current in F:\xampp\htdocs\CMSFINAL\Delete.php on line 14
+[14-Apr-2019 20:21:04 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:21:44 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 23
+[14-Apr-2019 20:24:03 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 23
+[14-Apr-2019 20:24:40 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 23
+[14-Apr-2019 20:25:02 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 23
+[14-Apr-2019 20:26:16 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 23
+[14-Apr-2019 20:27:42 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 23
+[14-Apr-2019 20:29:14 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 23
+[14-Apr-2019 20:29:43 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 23
+[14-Apr-2019 20:32:25 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 23
+[14-Apr-2019 20:35:54 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 23
+[14-Apr-2019 20:37:05 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:38:08 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:41:21 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:41:28 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:43:56 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:44:25 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:45:17 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:51:24 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:52:42 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:53:14 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:54:29 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:55:51 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 23
+[14-Apr-2019 20:59:00 Europe/Berlin] PHP Notice:  Undefined index: error in F:\xampp\htdocs\CMSFINAL\Add.php on line 19
+[14-Apr-2019 20:59:00 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 25
+[14-Apr-2019 20:59:21 Europe/Berlin] PHP Notice:  Undefined index: error in F:\xampp\htdocs\CMSFINAL\Add.php on line 19
+[14-Apr-2019 20:59:23 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Add.php on line 25
+[14-Apr-2019 21:11:41 Europe/Berlin] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in F:\xampp\htdocs\CMSFINAL\Edit.php on line 54
+[15-Apr-2019 17:03:58 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in F:\xampp\htdocs\CMSFINAL\db.php on line 9
+[15-Apr-2019 17:04:00 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in F:\xampp\htdocs\CMSFINAL\db.php on line 9
+[15-Apr-2019 17:04:39 Europe/Berlin] PHP Notice:  Undefined index: selected in F:\xampp\htdocs\CMSFINAL\Edit.php on line 91
+[15-Apr-2019 17:04:51 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 24
+[15-Apr-2019 23:34:03 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 24
+[15-Apr-2019 23:34:26 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in F:\xampp\htdocs\CMSFINAL\Edit.php on line 24
+[30-Apr-2019 10:43:08 Europe/Berlin] PHP Notice:  Undefined index: AType in E:\xampp\htdocs\CMSFINAL\index.php on line 94
+[30-Apr-2019 10:43:16 Europe/Berlin] PHP Notice:  Undefined index: AType in E:\xampp\htdocs\CMSFINAL\index.php on line 94
+[30-Apr-2019 10:46:23 Europe/Berlin] PHP Notice:  Undefined index: selected in E:\xampp\htdocs\CMSFINAL\Edit.php on line 104
+[30-Apr-2019 10:46:51 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in E:\xampp\htdocs\CMSFINAL\Edit.php on line 30
+[03-May-2019 12:05:49 Europe/Berlin] PHP Notice:  Undefined index: AType in E:\xampp\htdocs\CMSFINAL\index.php on line 94
+[03-May-2019 12:08:25 Europe/Berlin] PHP Notice:  Undefined index: selected in E:\xampp\htdocs\CMSFINAL\Edit.php on line 104
+[03-May-2019 12:09:30 Europe/Berlin] PHP Notice:  Undefined index: selected in E:\xampp\htdocs\CMSFINAL\Edit.php on line 104
+[03-May-2019 12:10:04 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in E:\xampp\htdocs\CMSFINAL\Edit.php on line 30
+[05-May-2019 17:31:42 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in F:\xampp\htdocs\CMSFINAL\db.php on line 9
+[05-May-2019 17:31:46 Europe/Berlin] PHP Warning:  mysqli::__construct(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in F:\xampp\htdocs\CMSFINAL\db.php on line 9
+[06-May-2019 16:44:57 Europe/Berlin] PHP Notice:  Undefined index: AType in F:\xampp\htdocs\CMSFINAL\index.php on line 94
+[07-May-2019 11:47:16 Europe/Berlin] PHP Notice:  Undefined index: AType in F:\xampp\htdocs\CMSFINAL\index.php on line 94
+[08-May-2019 20:53:45 Europe/Berlin] PHP Notice:  Undefined index: AType in F:\xampp\htdocs\CMSFINAL\index.php on line 94
+[08-May-2019 21:26:13 Europe/Berlin] PHP Notice:  Undefined index: selected in F:\xampp\htdocs\CMSFINAL\Edit.php on line 104
+[14-May-2019 10:47:31 Europe/Berlin] PHP Notice:  Undefined index: AType in F:\xampp\htdocs\CMSFINAL\index.php on line 94
+[14-May-2019 10:48:01 Europe/Berlin] PHP Notice:  Undefined index: AType in F:\xampp\htdocs\CMSFINAL\index.php on line 94
+[17-May-2019 00:53:47 Europe/Berlin] PHP Notice:  Undefined index: AType in F:\xampp\htdocs\CMSFINAL\index.php on line 94
+[18-Jun-2019 19:44:41 Europe/Berlin] PHP Notice:  Undefined index: AType in E:\xampp\htdocs\CMSFINAL\index.php on line 94
+[18-Jun-2019 19:45:18 Europe/Berlin] PHP Notice:  Undefined index: selected in E:\xampp\htdocs\CMSFINAL\Edit.php on line 104
+[18-Jun-2019 19:45:46 Europe/Berlin] PHP Notice:  Only variables should be passed by reference in E:\xampp\htdocs\CMSFINAL\Edit.php on line 30
+[26-Sep-2019 16:29:50 UTC] PHP Notice:  Undefined index: AType in C:\wamp64\www\CMSFINAL\index.php on line 94
+[26-Sep-2019 16:29:50 UTC] PHP Stack trace:
+[26-Sep-2019 16:29:50 UTC] PHP   1. {main}() C:\wamp64\www\CMSFINAL\index.php:0
+[26-Sep-2019 16:30:06 UTC] PHP Notice:  Undefined index: Account_Type in C:\wamp64\www\CMSFINAL\Login.php on line 64
+[26-Sep-2019 16:30:06 UTC] PHP Stack trace:
+[26-Sep-2019 16:30:06 UTC] PHP   1. {main}() C:\wamp64\www\CMSFINAL\Login.php:0
+[26-Sep-2019 16:30:06 UTC] PHP Notice:  Undefined index: Account_Type in C:\wamp64\www\CMSFINAL\index.php on line 137
+[26-Sep-2019 16:30:06 UTC] PHP Stack trace:
+[26-Sep-2019 16:30:06 UTC] PHP   1. {main}() C:\wamp64\www\CMSFINAL\index.php:0
+[26-Sep-2019 16:41:48 UTC] PHP Notice:  Undefined index: AType in C:\wamp64\www\CMSFINAL\index.php on line 94
+[26-Sep-2019 16:41:48 UTC] PHP Stack trace:
+[26-Sep-2019 16:41:48 UTC] PHP   1. {main}() C:\wamp64\www\CMSFINAL\index.php:0
+[26-Sep-2019 16:41:53 UTC] PHP Notice:  Undefined index: AType in C:\wamp64\www\CMSFINAL\index.php on line 94
+[26-Sep-2019 16:41:53 UTC] PHP Stack trace:
+[26-Sep-2019 16:41:53 UTC] PHP   1. {main}() C:\wamp64\www\CMSFINAL\index.php:0
+[26-Sep-2019 16:44:03 UTC] PHP Notice:  Undefined index: selected in C:\wamp64\www\CMSFINAL\Edit.php on line 104
+[26-Sep-2019 16:44:03 UTC] PHP Stack trace:
+[26-Sep-2019 16:44:03 UTC] PHP   1. {main}() C:\wamp64\www\CMSFINAL\Edit.php:0
+[26-Sep-2019 16:46:01 UTC] PHP Notice:  Undefined index: current in C:\wamp64\www\CMSFINAL\Delete.php on line 18
+[26-Sep-2019 16:46:01 UTC] PHP Stack trace:
+[26-Sep-2019 16:46:01 UTC] PHP   1. {main}() C:\wamp64\www\CMSFINAL\Delete.php:0
+[26-Sep-2019 19:04:20 UTC] PHP Notice:  Only variables should be passed by reference in C:\wamp64\www\CMSFINAL\Add.php on line 31
+[26-Sep-2019 19:04:20 UTC] PHP Stack trace:
+[26-Sep-2019 19:04:20 UTC] PHP   1. {main}() C:\wamp64\www\CMSFINAL\Add.php:0

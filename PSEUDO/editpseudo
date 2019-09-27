@@ -1,0 +1,60 @@
+Edit Pseudocode:
+
+Start Session
+Link to Database
+link to "errorLog.php"
+
+if session_variable("name") is null then
+	Redirect user to Login.php
+
+
+if session_variable("AType") is not "Admin" then
+	Redirect user to index.php
+
+if post_variable("submit") is set then
+	file_name = Files('image')('name')
+	if file_name is not "" then
+		errors = new array()
+		file_name = Files('image').name
+		file_size = Files('image').size
+		file_tmp = Files('image').tmp_name
+		file_type = Files('image').type
+		file_ext = LettersAfterDot(Files('image').name)
+
+		extensions = new array("txt")
+		if file_ext not in extentions:
+			errors.add("extension not allowed, please choose a TXT file.")
+
+
+		if file_size > 2097152:
+			errors.add ("File size must be excatly 2 MB.")
+
+
+		if errors = null
+
+			TextFile = "files/{filename}".GetContents
+
+			Print ("<script> document.getElementById('txtarea').value = '".$TextFile."'</script>")
+			write_text = Post('body')
+			
+			"files/{filename}".PutContents(write_text)
+
+			Print ("Success")
+
+	else
+		Print_raw (errors)
+else 
+	file_name = "Nothing"
+
+title = replace_space_with_underscore(post_variable("title"))
+body = post_variable("body")
+
+sct = cookie_variable("selected");
+stmt = "UPDATE pages TABLE: Menu_name = title, Content = body, image_name = filename WHERE ID = 'sct'"
+
+if stmt works then
+	Redirect user to index.php
+
+else
+	print "Something went wrong. Page wasn't Updated" + error
+	

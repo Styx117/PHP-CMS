@@ -1,0 +1,42 @@
+Login pseudocode
+
+
+
+Start Session
+Link to Database
+link to "errorLog.php"
+
+if post_variable("Uname") is set OR post_variable("Pass") is set then
+	formUsername = strip_tags(post_variable("Uname"))
+	formPassword = strip_tags(post_variable("Pass"))
+
+if session_variable("username") is set then
+	if session_variable("username") is not "" then
+		redirect user to "index.php"
+
+
+
+
+
+if post_variable("login") is set then
+	SQL = "SELECT ALL FROM user TABLE WHERE Username = 'fprmUsername' AND Password = 'formPassword'"
+
+	query = run_command(SQL) using conn
+	if query fails then
+		print(Error:) + error
+		exit
+
+	row = fetch_row(query)
+	id = row['ID']
+	AType = row['Account_Type']
+	db_password = row['Password']
+	db_username = row['Username']
+
+	if formPassword == db_password AND formUsername == db_username then
+		Session_variable['AType'] = $AType;
+		Session_variable['username'] = $formUsername;
+		Session_variable['ID'] = $id;
+		redirect user to "index.php"
+
+	else
+		print "INCORRECT CREDENTIALS!"
